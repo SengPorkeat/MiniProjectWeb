@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brands</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- TODO NavBar -->
+    <header id="renderNavBar"></header>
+    <!-- TODO Brand -->
+    <main>
+      <section class="xl:w-[1400px] w-auto m-auto mb-[50px]">
+        <h1 class="mt-[150px] mb-[20px] text-center text-[40px] font-bold">
+          Brands
+        </h1>
+        <small class="text-gray-400 block cursor-default text-[15px]">
+          <a href="./index.html">Home</a> | Brands
+        </small>
+      </section>
+      <!-- TODO Card Section -->
+      <div
+        class="flex flex-wrap justify-center gap-[20px] mt-[20px] mb-[180px]"
+      >
+        <!-- TODO Cards 1 -->
+        <div class="md:max-w-sm max-w-lg bg-gray-200 border">
+          <a href="./stoneIsland.html">
+            <img class="object-cover" src="./Photo/StoneIsland.png" alt="" />
+          </a>
+        </div>
+        <!-- TODO Cards 2 -->
+        <div class="md:max-w-sm max-w-lg bg-gray-200 border pt-10">
+          <a href="./nike.html">
+            <img
+              class="object-cover"
+              src="./Photo/nike-logo-49323.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- TODO Cards 3 -->
+        <div class="md:max-w-sm max-w-lg bg-gray-200 border">
+          <a href="./adidas.html">
+            <img
+              class="object-cover"
+              src="./Photo/adidas-logo-png-2362.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- TODO Cards 4 -->
+        <div class="md:max-w-sm max-w-lg bg-gray-200 border pt-16">
+          <a href="./puma.html">
+            <img
+              class="object-cover"
+              src="./Photo/puma-logo-png-1237.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- TODO Cards 5 -->
+        <div class="md:max-w-sm max-w-lg bg-gray-200 border">
+          <a href="./vans.html">
+            <img class="object-cover" src="./Photo/vans-logo-7824.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer id="renderFooter"></footer>
+  </body>
+  <script type="module" src="./js/index.js"></script>
+</html>

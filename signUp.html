@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- TODO NavBar -->
+    <header id="renderNavBar"></header>
+    <!-- TODO SignUp Section -->
+    <main class="mt-12">
+      <section class="flex h-screen justify-center items-center font-bold">
+        <div
+          class="text-white flex flex-col h-400 w-[500px] m-auto bg-gray-800 rounded-md"
+        >
+          <div class="bg-violet-700 w-[500px] rounded-md">
+            <h1 class="text-[30px] py-2 pl-2">Register</h1>
+          </div>
+          <form class="px-5 pt-2 pb-10">
+            <div class="flex flex-col py-4 px-10 gap-5">
+              <div class="flex flex-col">
+                <label for="email">Username</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="border-2 border-black py-2 pl-2 mt-1"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="flex flex-col">
+                <label for="email">Email address</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="border-2 border-black py-2 pl-2 mt-1"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="flex flex-col">
+                <label for="password">Password</label>
+                <input
+                  type="text"
+                  id="password"
+                  class="border-2 border-black py-2 px-1 mt-1"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="flex flex-col">
+                <label for="email">Confirm password</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="border-2 border-black py-2 pl-2 mt-1"
+                  placeholder="Confirm password"
+                />
+              </div>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+              <button
+                class="bg-violet-700 py-2 mx-10 w-[380px] rounded-full mt-2"
+              >
+                Sign up
+              </button>
+              <div class="inline-flex items-center justify-center w-full">
+                <hr class="w-[380px] h-px my-8 bg-white border-0" />
+                <span
+                  class="absolute px-3 font-light -translate-x-1/2 left-1/2 bg-gray-800 text-[13px]"
+                  >Already have account?</span
+                >
+              </div>
+              <a
+                href="./login.html"
+                class="bg-white text-black px-2 py-2 mx-10 w-[380px] rounded-full text-center"
+              >
+                Login now
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- TODO Footer -->
+    <footer id="renderFooter"></footer>
+  </body>
+  <script type="module" src="./js/index.js"></script>
+</html>

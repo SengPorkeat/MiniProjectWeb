@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Page 3</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- TODO NavBar -->
+    <header id="renderNavBar"></header>
+    <!-- TODO Detail -->
+    <main>
+      <section
+        class="flex justify-center items-center min-h-screen space-x-36 xl:flex-row sm:flex-col xl:mt-0 sm:mt-[260px] overflow-hidden"
+      >
+        <div class="flex">
+          <img
+            class="w-[545px] h-[343px]"
+            src="../Photo/NIKE.png"
+            alt=""
+          />
+          <img
+            class="w-[600px] h-[400px] object-cover absolute rotate-[35deg] scale-x-[-1] xl:top-[130px] xl:left-[250px] sm:top-[210px] sm:left-[110px] lg:left-[350px] lg:top-[130px]"
+            src="../Photo/max90.png"
+            alt=""
+          />
+        </div>
+        <article
+          class="flex flex-col gap-5 md:mr-0 xl:static sm:relative top-[50px] right-[40px]"
+        >
+          <div class="xl:text-left sm:text-center">
+            <small class="font-bold text-[14px]">Men's Training Shoe</small>
+            <h2 class="font-extrabold text-[40px]">NIKE AIR MAX 90</h2>
+            <p class="mt-2">SELECT SIZE</p>
+          </div>
+          <div class="flex flex-wrap gap-2 w-[400px]">
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 8
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 8.5
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 9
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 9.5
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 10
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 10.5
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 11
+            </button>
+            <button
+              class="border-[1.5px] border-black rounded-full w-[80px] py-1"
+            >
+              US 11.5
+            </button>
+          </div>
+          <div
+            class="xl:static lg:relative lg:bottom-[100px] xl:mt-0 xl:mb-0 lg:mt-[95px] mb-[150px]"
+          >
+            <button
+              class="bg-black text-white w-[130px] py-2 rounded-full font-bold"
+            >
+              Add To Bag
+            </button>
+            <button
+              class="bg-violet-700 text-white w-[130px] py-2 rounded-full font-bold"
+            >
+              Favorites
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- TODO Footer -->
+    <footer id="renderFooter"></footer>
+  </body>
+  <script type="module" src="./js/index.js"></script>
+</html>

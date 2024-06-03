@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- TODO NavBar -->
+    <header id="renderNavBar"></header>
+    <!-- TODO Main -->
+    <main class="max-w-full overflow-hidden">
+      <!-- TODO Hero Section -->
+      <section
+        class="mx-auto w-[1061px] flex justify-between items-center mt-[60px] lg:flex-row flex-col-reverse xl:px-0 lg:px-[100px]"
+      >
+        <div class="md:static md:right-0 relative right-56">
+          <h1 class="font-extrabold text-[35px] xl:text-[45px]">
+            NIKE AIR JORDAN 1 <br />
+            RETRO HIGH OG <br />"BRED" 2013
+          </h1>
+          <a href="./detail_1.html">
+            <button
+              class="bg-gray-800 text-white px-4 py-3 rounded-full mt-5 font-bold inline-flex items-center"
+            >
+              Buy Now
+              <i class="fa-solid fa-cart-shopping ml-2"></i>
+            </button>
+          </a>
+        </div>
+        <div class="md:static md:right-0 relative right-56">
+          <a href="./detail_1.html">
+            <img
+              class="xl:w-[600px] xl:h-[418px] lg:w-[500px] lg:h-[318px] w-[480px] h-[280px] object-cover"
+              src="./Photo/jordan1.png"
+              alt="JordanShoe"
+            />
+          </a>
+        </div>
+      </section>
+      <div>
+        <h2 class="text-center font-extrabold text-[30px] my-14">
+          Best Selling
+        </h2>
+      </div>
+      <section>
+        <!-- TODO Card Section -->
+        <div class="flex flex-wrap justify-center gap-[20px]">
+          <!-- TODO Cards 1 -->
+          <div
+            class="md:max-w-sm max-w-lg bg-white border border-gray-200 shadow group"
+          >
+            <a href="./detail_2.html">
+              <img src="./Photo/AIR_MAX_DN.png" alt="" />
+              <!-- TODO Display Section -->
+              <div class="pb-5 pt-2 px-3 leading-[15px]">
+                <div class="group-hover:hidden">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">
+                    NIKE AIR MAX DN
+                  </h5>
+                  <p class="mb-3 text-gray-400">SHOES</p>
+                  <p class="mb-3 font-normal text-gray-400">7 Colors</p>
+                </div>
+                <!-- TODO Hover Section -->
+                <div class="hidden group-hover:block">
+                  <div class="mb-[15px] w-[25px] flex gap-2 items-center">
+                    <img src="./Photo/GreenNikeAirMaxDN.png" alt="GreenShoe" />
+                    <img src="./Photo/BlackNikeAirMaxDN.png" alt="BlackShoe" />
+                    <img src="./Photo/BlueNikeAirMaxDN.png" alt="BlueShoe" />
+                    <small class="font-semibold text-gray-500 mt-[3px]"
+                      >+3</small
+                    >
+                  </div>
+                  <p class="font-medium text-[14px] text-orange-400 mb-[15px]">
+                    Best selling
+                  </p>
+                </div>
+                <small class="font-extrabold text-[15px]">$160</small>
+              </div>
+            </a>
+          </div>
+          <!-- TODO Cards 2 -->
+          <div
+            class="md:max-w-sm max-w-lg bg-white border border-gray-200 shadow group"
+          >
+            <a href="./detail_3.html">
+              <img src="./Photo/AIR_MAX_90.png" alt="" />
+              <!-- TODO Display Section -->
+              <div class="pb-5 pt-2 px-3 leading-[15px]">
+                <div class="group-hover:hidden">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">
+                    NIKE AIR MAX 90
+                  </h5>
+                  <p class="mb-3 text-gray-400">SHOES</p>
+                  <p class="mb-3 font-normal text-gray-400">8 Colors</p>
+                </div>
+                <!-- TODO Hover Section -->
+                <div class="hidden group-hover:block">
+                  <div class="mb-[15px] w-[25px] flex gap-2">
+                    <img src="./Photo/NikeAirMax90Black.png" alt="BlackShoe" />
+                    <img src="./Photo/NikeAirMax90Blue.png" alt="BlueShoe" />
+                    <img src="./Photo/NikeAirMax90Pink.png" alt="PinkShoe" />
+                    <small class="font-semibold text-gray-500 mt-[6px]"
+                      >+4</small
+                    >
+                  </div>
+                  <p class="font-medium text-[14px] text-orange-400 mb-[15px]">
+                    Best selling
+                  </p>
+                </div>
+                <small class="font-extrabold text-[15px]">$130</small>
+              </div>
+            </a>
+          </div>
+          <!-- TODO Cards 3 -->
+          <div
+            class="md:max-w-sm max-w-lg bg-white border border-gray-200 shadow group"
+          >
+            <a href="./detail_4.html">
+              <img src="./Photo/AIR_MAX_LTD_3.png" alt="" />
+              <!-- TODO Display Section -->
+              <div class="pb-5 pt-2 px-3 leading-[15px]">
+                <div class="group-hover:hidden">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">
+                    NIKE AIR MAX LTD 3
+                  </h5>
+                  <p class="mb-3 text-gray-400">SHOES</p>
+                  <p class="mb-3 font-normal text-gray-400">3 Colors</p>
+                </div>
+                <!-- TODO Hover Section -->
+                <div class="hidden group-hover:block">
+                  <div class="mb-[15px] w-[25px] flex gap-2">
+                    <img
+                      src="./Photo/air-max-ltd-3-mens-shoe-RJzJf1.png"
+                      alt="AirMaxLTD3"
+                    />
+                    <img
+                      src="./Photo/air-max-ltd-3-mens-shoes-RJzJf1-Photoroom.png-Photoroom.png"
+                      alt="AirMaxLTD3"
+                    />
+                  </div>
+                  <p class="font-medium text-[14px] text-orange-400 mb-[15px]">
+                    Best selling
+                  </p>
+                </div>
+                <small class="font-extrabold text-[15px]">$160</small>
+              </div>
+            </a>
+          </div>
+          <!-- TODO Cards 4 -->
+          <div
+            class="md:max-w-sm max-w-lg bg-white border border-gray-200 shadow group"
+          >
+            <a href="./detail_5.html">
+              <img src="./Photo/AIR-MAX-90-GORE-TEX.png" alt="" />
+              <!-- TODO Display Section -->
+              <div class="pb-5 pt-2 px-3 leading-[15px]">
+                <div class="group-hover:hidden">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">
+                    NIKE AIR MAX 90 GORE-TEX
+                  </h5>
+                  <p class="mb-3 text-gray-400">SHOES</p>
+                  <p class="mb-3 font-normal text-gray-400">6 Colors</p>
+                </div>
+                <!-- TODO Hover Section -->
+                <div class="hidden group-hover:block">
+                  <div class="mb-[15px] w-[25px] flex gap-2">
+                    <img
+                      src="./Photo/air-max-90-gore-tex-mens-shoes-cZwz8t.png"
+                      alt="Green"
+                    />
+                    <img
+                      src="./Photo/air-max-90-gore-tex-mens-shoes-cZwz8t (1).png"
+                      alt="Green"
+                    />
+                    <img
+                      src="./Photo/air-max-90-gore-tex-mens-shoes-cZwz8t (2).png"
+                      alt="Green"
+                    />
+                    <small class="font-semibold text-gray-500 mt-[6px]"
+                      >+2</small
+                    >
+                  </div>
+                  <p class="font-medium text-[14px] text-orange-400 mb-[15px]">
+                    Best selling
+                  </p>
+                </div>
+                <small class="font-extrabold text-[15px]">$160</small>
+              </div>
+            </a>
+          </div>
+          <!-- TODO Cards 5 -->
+          <div
+            class="md:max-w-sm max-w-lg bg-white border border-gray-200 shadow group"
+          >
+            <a href="./detail_6.html">
+              <img src="./Photo/AIR-MAX-2013.png" alt="" />
+              <!-- TODO Display Section -->
+              <div class="pb-5 pt-2 px-3 leading-[15px]">
+                <div class="group-hover:hidden">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">
+                    NIKE AIR MAX 2013
+                  </h5>
+                  <p class="mb-3 text-gray-400">SHOES</p>
+                  <p class="mb-3 font-normal text-gray-400">5 Colors</p>
+                </div>
+                <!-- TODO Hover Section -->
+                <div class="hidden group-hover:block">
+                  <div class="mb-[15px] w-[25px] flex gap-2">
+                    <img src="./Photo/AirMax2013.png" alt="Green" />
+                    <img src="./Photo/AirMax2013-2.png" alt="Green" />
+                    <img src="./Photo/AirMax2013-3.png" alt="Green" />
+                    <small class="font-semibold text-gray-500 mt-[6px]"
+                      >+1</small
+                    >
+                  </div>
+                  <p class="font-medium text-[14px] text-orange-400 mb-[15px]">
+                    Best selling
+                  </p>
+                </div>
+                <small class="font-extrabold text-[15px]">$180</small>
+              </div>
+            </a>
+          </div>
+          <!-- TODO Card 6 -->
+          <div
+            class="md:max-w-sm max-w-lg bg-white border border-gray-200 shadow group"
+          >
+            <a href="./detail_7.html">
+              <img src="./Photo/DUNK-HIGH.png" alt="" />
+              <!-- TODO Display Section -->
+              <div class="pb-5 pt-2 px-3 leading-[15px]">
+                <div class="group-hover:hidden">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">
+                    NIKE AIR DUNK HIGH
+                  </h5>
+                  <p class="mb-3 text-gray-400">SHOES</p>
+                  <p class="mb-3 font-normal text-gray-400">2 Colors</p>
+                </div>
+                <!-- TODO Hover Section -->
+                <div class="hidden group-hover:block">
+                  <div class="mb-[15px] w-[25px] flex gap-2">
+                    <img
+                      src="./Photo/dunk-high-big-kids-shoes-03FS3b.png"
+                      alt="Green"
+                    />
+                  </div>
+                  <p class="font-medium text-[14px] text-orange-400 mb-[15px]">
+                    Best selling
+                  </p>
+                </div>
+                <small class="font-extrabold text-[15px]">$105</small>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-center items-center my-14">
+          <a href="./allProducts.html">
+            <small class="underline text-gray-400 text-[15px]"
+              >View All Product</small
+            >
+          </a>
+        </div>
+      </section>
+      <!-- TODO Discount Section -->
+      <section class="flex flex-wrap justify-center gap-[20px]">
+        <!-- TODO Discount 1 -->
+        <div class="max-w-sm">
+          <a href="./under50.html">
+            <img src="./Logo/Under50.jpg" alt="" />
+            <div class="p-5 leading-[15px] text-center">
+              <p class="mb-3">Summer with simple pleasures</p>
+              <p class="mb-3 font-semibold underline">Shop $50 & Under</p>
+            </div>
+          </a>
+        </div>
+        <!-- TODO Discount 2 -->
+        <div class="max-w-sm">
+          <a href="./under100.html">
+            <img src="./Logo/Under100.jpg" alt="" />
+            <div class="p-5 leading-[15px] text-center">
+              <p class="mb-3">Some great buys at even greater discount</p>
+              <p class="mb-3 font-semibold underline">Shop $100 & Under</p>
+            </div>
+          </a>
+        </div>
+        <!-- TODO Discount 3 -->
+        <div class="max-w-sm">
+          <a href="./sale.html">
+            <img src="./Logo/Sales.jpg" alt="" />
+            <div class="p-5 leading-[15px] text-center">
+              <p class="mb-3">Deals on the foot wear you want the most</p>
+              <p class="mb-3 font-semibold underline">Shop Shoes on Sale</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- TODO Reward -->
+      <section class="bg-gray-800 my-[30px] py-[30px]">
+        <div
+          class="text-white flex justify-evenly items-center md:flex-row flex-col"
+        >
+          <div>
+            <img
+              class="object-cover w-[450px]"
+              src="./Logo/alex-kgm-high-resolution-logo-white-transparent.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <h3 class="text-center text-[52px] font-bold">
+              Reward You'll Love
+            </h3>
+            <div class="flex text-center">
+              <!-- TODO Icon 1 -->
+              <div
+                class="border-r-[1px] w-[140px] border-white flex flex-col items-center justify-center"
+              >
+                <img class="w-[80px]" src="./Logo/moneyWhite.png" alt="" />
+                <h4>Reward<br />Cash</h4>
+              </div>
+              <!-- TODO Icon 2 -->
+              <div
+                class="border-r-[1px] w-[140px] border-white flex flex-col items-center justify-center"
+              >
+                <img class="w-[80px]" src="./Logo/boxWhite.png" alt="" />
+                <h4>Free<br />Shipping</h4>
+                <!-- TODO Icon 3 -->
+              </div>
+              <div
+                class="border-r-[1px] w-[140px] border-white flex flex-col items-center justify-center"
+              >
+                <img class="w-[80px]" src="./Logo/giftWhite.png" alt="" />
+                <h4>Birthday<br />Reward</h4>
+              </div>
+              <!-- TODO Icon 4 -->
+              <div
+                class="w-[140px] border-white flex flex-col items-center justify-center"
+              >
+                <img class="w-[80px]" src="./Logo/dobleWhite.png" alt="" />
+                <h4>Double Points<br />Reward</h4>
+              </div>
+            </div>
+            <h3 class="text-[20px] font-bold ml-[38px] mt-[10px]">
+              By Join Us
+            </h3>
+          </div>
+        </div>
+      </section>
+      <!-- TODO Brand -->
+      <section>
+        <div
+          class="flex items-center md:justify-around justify-center gap-14 md:gap-0 md:flex-row flex-col"
+        >
+          <a href="./nike.html">
+            <img
+              class="object-cover md:w-[100px] w-[160px] md:m-0 m-5"
+              src="./Logo/nike-logo-49323.png"
+              alt="Nike"
+            />
+          </a>
+          <a href="./adidas.html">
+            <img
+              class="object-cover md:w-[100px] w-[160px]"
+              src="./Logo/adidas-logo-png-2362.png"
+              alt="Adidas"
+            />
+          </a>
+          <a href="./stoneIsland.html">
+            <img
+              class="object-cover md:w-[100px] w-[160px]"
+              src="./Logo/R.png"
+              alt="StoneIsland"
+            />
+          </a>
+          <a href="./puma.html">
+            <img
+              class="object-cover md:w-[100px] w-[160px]"
+              src="./Logo/puma-logo-png-1237.png"
+              alt="Puma"
+            />
+          </a>
+          <a href="./vans.html">
+            <img
+              class="object-cover md:w-[100px] w-[160px]"
+              src="./Logo/vans-logo-7824.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <hr class="border-none h-[1px] bg-gray-400 mt-[20px]" />
+      </section>
+      <section class="font-medium">
+        <div class="flex flex-col justify-center items-center">
+          <div class="text-center">
+            <h4 class="text-[23px] md:mt-0 mt-5">Shop for:</h4>
+            <ul
+              class="flex md:gap-10 gap-3 mt-[20px] text-[18px] font-bold underline justify-center items-center md:flex-row flex-col"
+            >
+              <li><a href="./woman.html">WOMEN</a></li>
+              <li><a href="./men.html">MEN</a></li>
+              <li><a href="./kid.html">KID</a></li>
+              <li><a href="./sale.html">SALE</a></li>
+            </ul>
+          </div>
+          <div class="text-[23px] mt-[20px] w-[400px] text-center">
+            <p>Find Your Next Pair Of Shoes at AlexKGM Sneaker Shop</p>
+          </div>
+        </div>
+        <div
+          class="md:justify-between md:flex-row my-[20px] flex flex-col justify-center items-center mx-0 md:mx-[105px]"
+        >
+          <p class="font-[500px]">Sign up for special offers & trend updates</p>
+          <div>
+            <form class="flex items-center">
+              <input
+                type="text"
+                class="border border-black w-[350px] px-2 py-1"
+                placeholder="EMAIL"
+              />
+              <button
+                type="submit"
+                class="bg-violet-700 text-white px-4 py-[5px] md:my-0 my-5"
+              >
+                SIGN UP
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- TODO Footer -->
+    <footer id="renderFooter"></footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
